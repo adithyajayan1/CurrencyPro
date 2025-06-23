@@ -1,6 +1,6 @@
 # CurrencyPro
 
-[Live Demo](https://currency-pro-convert.vercel.app/))
+[Live Demo](https://currency-pro-convert.vercel.app/)
 
 CurrencyPro is an AI-powered web application for effortless currency detection and conversion...
 **CurrencyPro** is an AI-powered web application for effortless currency detection and conversion. Upload images of banknotes or currency text, and CurrencyPro will automatically detect the currency type, denomination, and provide real-time conversion to any supported currency.
