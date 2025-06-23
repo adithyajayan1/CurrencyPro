@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
+# CurrencyPro
 
-## Project info
+**CurrencyPro** is an AI-powered web application for effortless currency detection and conversion. Upload images of banknotes or currency text, and CurrencyPro will automatically detect the currency type, denomination, and provide real-time conversion to any supported currency.
 
-**URL**: https://lovable.dev/projects/5213ddac-a873-438d-b5aa-f6b9237c5b44
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Image-Based Currency Detection:**  
+  Upload a photo of a banknote or currency text. The app uses advanced OCR (Optical Character Recognition) to identify the currency and denomination.
 
-**Use Lovable**
+- **Real-Time Currency Conversion:**  
+  Instantly convert detected or manually selected currencies using up-to-date exchange rates from trusted financial sources.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5213ddac-a873-438d-b5aa-f6b9237c5b44) and start prompting.
+- **Multi-Currency Support:**  
+  Recognizes and converts over 150 global currencies, including USD, EUR, GBP, JPY, INR, and more.
 
-Changes made via Lovable will be committed automatically to this repo.
+- **User-Friendly Interface:**  
+  Simple, modern design with clear instructions and instant feedback.
 
-**Use your preferred IDE**
+- **Batch Processing:**  
+  Detect and convert multiple currencies from a single image.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Confidence Scores:**  
+  See how confident the AI is in its detection results.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Mobile-Optimized:**  
+  Works seamlessly on desktop and mobile devices.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🖼️ How It Works
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. **Upload** an image of a banknote or currency text.
+2. **Analyze:** The app uses OCR and AI models to extract and detect currency information.
+3. **Detect:** Detected currencies and denominations are displayed with confidence scores.
+4. **Convert:** Instantly convert the detected amount to your desired currency.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 💻 Tech Stack
+
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS, shadcn-ui
+- **OCR:** [OCR.Space API](https://ocr.space/ocrapi)
+- **Currency Rates:** Real-time exchange rate API (e.g., exchangerate-api.com)
+- **Routing:** React Router
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+npm install
+```
+
+### Running the App
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🔑 Environment Variables
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Create a `.env` file in the root directory for your API keys:
 
-## What technologies are used for this project?
+```env
+VITE_EXCHANGE_RATE_API_KEY=your_exchange_rate_api_key
+VITE_OCR_SPACE_API_KEY=your_ocr_space_api_key
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📁 Project Structure
 
-## How can I deploy this project?
+```
+src/
+  components/
+  pages/
+  App.tsx
+  main.tsx
+public/
+  favicon.ico
+  index.html
+```
 
-Simply open [Lovable](https://lovable.dev/projects/5213ddac-a873-438d-b5aa-f6b9237c5b44) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+Contributions are welcome! Please open an issue or submit a pull request.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🙋‍♂️ Author
+
+- Adithya K Jayan (https://github.com/adithyajayan1)
+
+---
+
+**CurrencyPro** – Effortless currency detection and conversion, powered by AI.
